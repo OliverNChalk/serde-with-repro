@@ -1,0 +1,9 @@
+[package]
+name    = "serde-with-repro"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde      = "=1.0.152"
+serde_json = { version = "=1.0.93", features = ["arbitrary_precision"] }
+serde_with = "=2.2.0"
